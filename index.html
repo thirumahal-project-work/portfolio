@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thirumahal Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="particles-js"></div>
+<div class="cursor"></div>
+
+<header>
+  <h2 class="logo">Thiru.</h2>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#work">What I Do</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+<canvas id="bgCanvas"></canvas>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-container">
+
+    <div class="hero-text">
+      <h1>Hi, I'm <span>Thirumahal</span></h1>
+
+      <h2 class="tagline">
+        I build modern web applications with clean UI and real-world solutions.
+      </h2>
+
+      <p class="subtext">
+        Focused on creating secure, responsive, and user-friendly digital experiences using web technologies and AI concepts.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View Work</a>
+        <a href="thiruumahal_resume.pdf" download class="btn outline">Download Resume</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="image/whity.jpeg" alt="profile">
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="glass">
+  <h2>About Me</h2>
+  <p>
+    I am an IT undergraduate passionate about AI, web development, and data analytics. I enjoy building real-world projects, learning new technologies, and improving my problem-solving skills. I aim to grow as a developer and contribute to impactful solutions.
+  </p>
+</section>
+
+<!-- WHAT I DO -->
+<section id="work">
+  <h2>What I Do</h2>
+
+  <div class="work-grid">
+    <div class="work-card">
+      <h3>Web Development</h3>
+      <p>Building responsive and modern web applications.</p>
+    </div>
+
+    <div class="work-card">
+      <h3>AI Solutions</h3>
+      <p>Developing intelligent systems and detection models.</p>
+    </div>
+
+    <div class="work-card">
+      <h3>Problem Solving</h3>
+      <p>Creating practical solutions for real-world problems.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <!-- Project 1 -->
+  <div class="project-showcase">
+    <div class="project-img">
+      <img src="image/crowd.jpeg">
+    </div>
+    <div class="project-info">
+      <h3>AI Crowd Detection</h3>
+      <p>
+        Real-time crowd monitoring system using OpenCV to detect human activity and analyze density using heatmaps.
+      </p>
+      <div class="tech-stack">
+        <span>Python</span><span>OpenCV</span>
+      </div>
+      <p class="impact">🔥 Improves safety in crowded environments</p>
+      <a href="#" class="btn">Live Demo</a>
+      <a href="https://github.com/thirumahal-project-work/AI-crowd-detection-system" class="btn outline">GitHub</a>
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="project-showcase reverse">
+    <div class="project-img">
+      <img src="image/atm.jpeg">
+    </div>
+    <div class="project-info">
+      <h3>OTP Authentication System</h3>
+      <p>
+        Secure login system using OTP verification instead of passwords to prevent unauthorized access.
+      </p>
+      <div class="tech-stack">
+        <span>PHP</span><span>MySQL</span>
+      </div>
+      <p class="impact">🔐 Enhances user security and authentication</p>
+      <a href="https://github.com/thirumahal-project-work/ATM-OTP-Authentication.git" class="btn outline">GitHub</a>
+      <a href="" class="btn">Live Demo</a>
+    </div>
+  </div>
+<div class="project-showcase reverse">
+    <div class="project-img">
+      <img src="image/hotel.jpg">
+    </div>
+    <div class="project-info">
+      <h3>Hotel Management Website</h3>
+      <p>
+       hotel reserving through online.which improve remote reservation system 
+      </p>
+      <div class="tech-stack">
+        <span>HTML/CSS<span>MYSQL</span><span>php</span>
+      </div>
+      <p class="impact">🔐 Enhances user engagement</p>
+      <a href="https://github.com/thirumahal-project-work/hotel-management-website-project/tree/main">GitHub</a>
+      <a href="" class="btn">Live Demo</a>
+    </div>
+  </div>
+  <!-- Project 3 -->
+  <div class="project-showcase">
+    <div class="project-img">
+      <img src="image/telegram-suspicious-activity.jpeg">
+    </div>
+    <div class="project-info">
+      <h3>Telegram Threat Detection System</h3>
+      <p>
+        A system designed to detect malicious links shared in Telegram using the Telegram API. It analyzes URLs in real time with rule-based and intelligent techniques to identify potential threats. The project helps prevent phishing and harmful attacks while improving user safety. It also raises cybersecurity awareness among users. Future enhancements include advanced detection models and multi-platform integration.
+      </p>
+      <div class="tech-stack">
+        <span>Python</span><span>Telethon</span><span>telegram API</span><span>ML</span>
+      </div>
+      <p class="impact">🛡️ Helps prevent malicious attacks</p>
+      <a href="#" class="btn">Live Demo</a>
+      <a href="https://github.com/thirumahal-project-work/Telegram-security-project" class="btn outline">GitHub</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="glass">
+  <h2>Contact</h2>
+  <p>Email: thirumahalselvaraj@gmail.com</p>
+  <p>Phone_no:8015957503</p>
+</section>
+
+<footer>
+  <p>© 2026 Thiru</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
